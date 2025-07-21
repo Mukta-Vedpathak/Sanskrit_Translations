@@ -6,13 +6,17 @@ This algorithm aims to explore phonetic similarity using the Indic Soundex algor
   -	Vowels and certain characters are ignored.
   - Consecutive duplicate digits are removed, and the code is truncated or padded to four characters.
 
-3. String Similarity Metrics:
+2. String Similarity Metrics:
+   
   A)	Hamming Distance:
     -	Measures the number of positions at which the corresponding symbols are different between two strings of the same length.
+      
   B)	Levenshtein Distance:
     -	Measures the minimum number of single-character edits required to change one string into another.
+  
   C)	Jaccard Similarity:
     -	Calculated as the size of the intersection divided by the size of the union of the sets.
+  
   D)	Cosine Similarity:
     -	Measures the cosine of the angle between two non-zero vectors in an inner product space, which helps to determine how similar the two vectors are.
 
